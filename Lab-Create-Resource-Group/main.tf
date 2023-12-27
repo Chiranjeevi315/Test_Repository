@@ -15,7 +15,7 @@ provider "azurerm" {
 terraform {
   backend "azurerm" {
     storage_account_name = "__terraformstorageaccount__"
-    container_name       = "tfstate"
+    container_name       = "chirutfstate"
     key                  = "terraform.tfstate"
 
     # rather than defining this inline, the Access Key can also be sourced
